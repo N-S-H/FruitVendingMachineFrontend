@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(169, 175, 184);
+  color: white;
+}
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +46,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+html { 
+  background: url(images/fruit.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-blend-mode: lighten;
 }
